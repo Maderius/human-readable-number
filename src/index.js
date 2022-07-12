@@ -1,4 +1,3 @@
-module.exports = function toReadable(number) {
     const assert = require('assert');
 
     const toReadable = require('./src');
@@ -6003,5 +6002,3 @@ module.exports = function toReadable(number) {
 
         assert.equal(readable, 'nine hundred ninety nine');
     });
-
-}
